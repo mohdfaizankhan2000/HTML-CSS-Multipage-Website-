@@ -1,0 +1,153 @@
+* {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.child {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0));
+  background-position: center;
+  background-size: center;
+}
+.child .nav {
+  justify-content: flex;
+  align-items: center;
+  text-align: center;
+}
+.child .nav ul {
+  display: flex;
+  justify-items: center;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.child .nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.child .nav ul li {
+  list-style: none;
+  color: white;
+}
+
+.child .nav img {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  background-color: #02291f00;
+}
+
+.child .nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0px;
+}
+.child .nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.child .nav ul i a {
+  color: aliceblue;
+  margin-top: 50px;
+}
+
+.child .icons {
+  display: flex;
+  margin-left: 700px;
+  margin-top: 5px;
+  color: aliceblue;
+  gap: 10px;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+}
+.child .icons a {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  top: 0;
+  margin-top: 0px;
+  color: aliceblue;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.nav img {
+  height: 40.37px;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 600px;
+  align-content: center;
+  background-color: antiquewhite;
+}
+
+.cart-head {
+  color: aliceblue;
+  margin-top: 80px;
+  justify-content: space-around;
+  border-color: antiquewhite;
+  border-top: 10px;
+}
+
+.cart-item img {
+  padding-left: 50px;
+  width: 260px;
+  height: 100%;
+  padding-left: 130px;
+  border-radius: 50px;
+  padding-top: 50px;
+}
+
+.cart-head table {
+  margin-right: 100px;
+  width: 50%;
+  padding-right: 50px;
+  color: bisque;
+  gap: 10px;
+}
+.cart-head table tr {
+  margin-right: 70px;
+}
+
+td input {
+  color: wheat;
+  width: 40px;
+  padding: 5px;
+  height: 30px;
+  gap: 30px;
+}
+
+td {
+  padding: 10px 5px;
+}
+.cart-item p {
+  padding-left: 80px;
+}
+
+.cart-item small {
+  padding-left: 80px;
+}
+
+.cart-item a {
+  padding-left: 80px;
+  text-decoration: none;
+  color: #cda45e;
+}
+
+.total table {
+  color: bisque;
+  width: 50px;
+  margin-left: 550px;
+  border-top: 3px solid #cda45e;
+}
